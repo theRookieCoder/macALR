@@ -2,10 +2,10 @@
 Before starting, make sure you have python3 and the netwide assembler installed  
 Latest Python download: <https://www.python.org/downloads/>  
 Latest NASM download: <https://www.nasm.us/>
-1. Download the macALR bash script by cloning this repo  
+1. Clone this repo  
 2. Open a finder window and navigate to your home directory by searching the 'Favourites' bar for a house icon  
 3. If you see a folder named _exactly_ 'bin', skip to the next step. Else create a new file called 'bin' and make sure to _not use any capital case letters_
-4. Move or copy the 'macALR' bash script to the 'bin' folder  
+4. Move or copy-paste the 'macALR' bash script and man page to the 'bin' folder  
 5. Open terminal and type in ```macALR```  
 6. If you see this, ```macALR: Fatal: No input file specified``` then skip to step 9  
 7. If you did not, go to the search tab in finder, type in ```bashrc.sh``` and open it  
