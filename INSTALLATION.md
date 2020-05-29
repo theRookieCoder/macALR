@@ -1,5 +1,5 @@
 # macALR Installation Guide
-1. Download the macALR bash script by <download methods here>  
+1. Download the macALR bash script by cloning this repo  
 2. Open a finder window and navigate to your home directory by searching the 'Favourites' bar for a house icon  
 3. If you see a folder named _exactly_ 'bin', skip to the next step. Else create a new file called 'bin' and make sure to _not use any capital case letter_
 4. Move or copy the 'macALR' bash script to the 'bin' folder  
