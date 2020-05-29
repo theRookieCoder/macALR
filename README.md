@@ -7,5 +7,5 @@ For installation instructions, read the INSTALLATION.md file
 To use macALR, type in ```macALR <path/to/file or file>```  
 You have to include the extension but it does not matter what it is  
 To check macALR's version, type in ```macALR -v```  
-To access the help page, type in ```macALR -h```  
+To access the help page, type in ```man macALR```  
 macALR has no other options or arguments  
