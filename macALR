@@ -18,7 +18,7 @@ except Exception:
     exit()
 
 if sys.argv[1] == "-h":
-	print(f"Please access the man page for {APPNAME} by typing in 'man macALR'")
+	os.system("man ~/bin/macALR.1")
 	exit()
 elif sys.argv[1] == "-v":
 	print(f"{APPNAME} version {VERSION}")
