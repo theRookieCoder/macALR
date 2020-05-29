@@ -28,6 +28,6 @@ PS1="$"
 # Unset PROMPT_COMMAND, so that it can't change PS1 to something unexpected.
 unset PROMPT_COMMAND
 ```
-Credits: Taken from macOS Catalina's default for bashrc.sh
+Credits: Taken from macOS Catalina's default for bashrc.sh  
 9. Now you are ready to use macALR! Be reminded that the ```macALR``` you type into terminal is not case sensitive (you can type in ```macalr``` and it will work just fine)  
 10. For information on how to use the script, type in ```macALR -h``` in terminal
