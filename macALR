@@ -18,14 +18,7 @@ except Exception:
     exit()
 
 if sys.argv[1] == "-h":
-	print(f"\nusage: {APPNAME} [input file]")
-	print(f"       or {APPNAME} -h for this help screen\n")
-	print(f"       or {APPNAME} -v for this version information\n")
-	print("information: The given input should include the extension such as '.asm' or '.s'")
-	print("             This program uses 'nasm' for compilation, 'ld' for linking and './' for executing")
-	print("             There are no options or arguments that this program takes other than the input file")
-	print(f"             {APPNAME} uses options specifically for macosx systems")
-	print(f"             {APPNAME} requires that input assembly files be x86-64 (x64) compatible and syscalls be written for macosx systems\n")
+	print(f"Please access the man page for {APPNAME} by typing in 'man macALR'")
 	exit()
 elif sys.argv[1] == "-v":
 	print(f"{APPNAME} version {VERSION}")
