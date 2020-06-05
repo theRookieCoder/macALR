@@ -3,7 +3,8 @@
 ALR is a script that uses 'nasm' to Assemble, 'ld' to Link and './' to Run (hence the ALR) all in one command  
 It accepts x86-64 assembly files written for macs specifically (hence the mac)  
 This program runs as a terminal command and uses python  
-To install, follow the installation instructions
+To install, run the installation script from terminal
+If that fails, follow the manual installation instructions in INSTALLATION.md
 
 ## Usage
 
