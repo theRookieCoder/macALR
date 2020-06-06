@@ -19,13 +19,13 @@ except Exception:
 
 if sys.argv[1] == "-h":
     print("\nIntroduction:")
-    print("macALR is a shortcut/tool/script to make life easier for people getting into x86-64 assembly.\nIt quickly assembles, links and runs in one command")
+    print(f"{APPNAME} is a shortcut/tool/script to make life easier for people getting into x86-64 assembly.\nIt quickly assembles, links and runs in one command")
     print("\nRunning the script:")
-    print("To run macALR, type in 'macALR path/to/file.extension or file.extension'.\nTo check the version number, type in 'macALR -v'.\nTo access this help page, type in 'macALR -h'.\nThere are no other options or arguments that macALR accepts")
+    print(f"To run {APPNAME}, type in '{APPNAME} path/to/file.extension or file.extension'.\nTo check the version number, type in '{APPNAME} -v'.\nTo access this help page, type in '{APPNAME} -h'.\nThere are no other options or arguments that {APPNAME} accepts")
     print("\nDescription:")
-    print("This program runs 'nasm' with the format set to macho64.\nThen it links the file using 'ld' and sets the minimum macosx version to 10.7.0.\nFinally it runs the program using './'.\nTo not clutter the directory, macALR deletes the generated object and executable files.")
+    print(f"This program runs 'nasm' with the format set to macho64.\nThen it links the file using 'ld' and sets the minimum macosx version to 10.7.0.\nFinally it runs the program using './'.\nTo not clutter the directory, {APPNAME} deletes the generated object and executable files.")
     print("\nExample:")
-    print("For this example, lets call the assembly file 'example.asm' with the path '~/assemblyPrograms/example.asm'.\nWe assume that we are currently in the home directory.\nRunning 'macALR example.asm' will not work as the file is not in the home directory.\nSo we can type the path in by typing 'macALR ~/assemblyPrograms/example.asm'.\nWe can also 'cd' into the 'assemblyPrograms' directory then type in 'macALR example.asm\n")
+    print(f"For this example, lets call the assembly file 'example.asm' with the path '~/assemblyPrograms/example.asm'.\nWe assume that we are currently in the home directory.\nRunning '{APPNAME} example.asm' will not work as the file is not in the home directory.\nSo we can type the path in by typing '{APPNAME} ~/assemblyPrograms/example.asm'.\nWe can also 'cd' into the 'assemblyPrograms' directory then type in '{APPNAME} example.asm\n")
     exit(1)
 elif sys.argv[1] == "-v":
 	print(f"{APPNAME} version {VERSION}")
