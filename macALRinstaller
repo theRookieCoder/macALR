@@ -3,7 +3,7 @@ import os
 import shutil
 import sys
 import subprocess
-path = "/Users/ilesh/bin"
+path = "~/bin"
 
 # Check the OS
 if sys.platform != "darwin":
@@ -17,7 +17,7 @@ if subprocess.check_output("echo $?", stderr = subprocess.STDOUT, shell = True) 
 
 if not os.path.exists(path):
     os.makedirs(path)
-shutil.copy("macALR", "/Users/ilesh/bin")
+shutil.copy("macALR", path)
 os.system("chmod +x ~/bin/macALR")
 if subprocess.check_output("macALR", stderr = subprocess.STDOUT, shell = True) == b'macALR: Fatal: No input file specified\n':
   print("macALRinstaller: Installed successfully")
