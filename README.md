@@ -9,7 +9,7 @@ If that fails, follow the manual installation instructions in INSTALLATION.md
 ## Usage
 
 To use macALR, type in `macALR <path/to/file.extension or file.extension>`  
-Note that you have to include the extension _but_ it does not matter what it is (.asm or .s)  
+Note that you have to include the extension _but_ it does not matter what it is (`.asm` or `.s`)  
 To check macALR's version, type in `macALR -v`  
 To access the help page, type in `macALR -h`  
 macALR has no other options or arguments
