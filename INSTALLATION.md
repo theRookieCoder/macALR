@@ -14,7 +14,7 @@ Latest NASM download: <https://www.nasm.us/>
 8. If you did not, first check that python is working. If it is, go to the search tab in finder, type in `bashrc.sh` and open it
 9. Then replace the existing content with this and close the text editor that opened it
 
-```
+```bash
 # Different platforms have different names for the systemwide bashrc
 if [[ -f /etc/bashrc ]]; then
   source /etc/bashrc
